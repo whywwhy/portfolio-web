@@ -29,10 +29,10 @@ export default function Form() {
   } = useForm();
 
   const sendEmail = (params) => {
-    const toastId = toast.loading("Sending your message, please wait...");
+    const toastId = toast.loading("메시지를 보내고 있어요. 기다려 주세요!!!");
 
     toast.info(
-      "Form submissions are demo-only here. Please checkout the final code repo to enable it. If you want to connect you can reach out to me via error27@gmail.com.",
+      "안녕하세용 메일은 chaeeehui@gmail.com 으로 발송해주세요",
       {
         id: toastId,
       }
@@ -99,10 +99,10 @@ export default function Form() {
           type="text"
           placeholder="name"
           {...register("name", {
-            required: "This field is required!",
+            required: "필수 입력입니다.",
             minLength: {
               value: 3,
-              message: "Name should be atleast 3 characters long.",
+              message: "이름은 3글자 이상 입력해주세요",
             },
           })}
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
@@ -128,14 +128,14 @@ export default function Form() {
           variants={item}
           placeholder="message"
           {...register("message", {
-            required: "This field is required!",
+            required: "필수 입력입니다.",
             maxLength: {
               value: 500,
-              message: "Message should be less than 500 characters",
+              message: "500자 이하로 써주세요",
             },
             minLength: {
               value: 50,
-              message: "Message should be more than 50 characters",
+              message: "50자 이상으로 써주세요",
             },
           })}
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"

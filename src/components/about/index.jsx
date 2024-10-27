@@ -12,18 +12,14 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            About Me
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          안녕하세요, 도전에서 즐거움을 찾고 실패를 통해 성장하는 개발자 배채희 입니다. <br/>
+          프론트엔드 기술과 데이터 분석에 대해 흥미를 가지고 활동합니다.<br/>
+          모든 경험에는 가치가 있다고 생각하며 모든 경험에 도전하며 경험을 즐깁니다.<br/>
+          주어진 일에 대해 책임감을 가지며 끊임없이 고민하여 좋은 성과를 만들어 내기 위해 노력합니다.<br/>
+          저는 도전은 배움과 성공만 있을 뿐 실패는 없다고 생각합니다. 이에 다양한 분야에서의 경험을 즐기고 있습니다.
           </p>
         </ItemLayout>
 
@@ -31,7 +27,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            DGSW <br/><sub className="font-semibold text-base">인공지능소프트웨어과 재학 중</sub>
           </p>
         </ItemLayout>
 
@@ -39,8 +35,8 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+            Front-end{" "}
+            <sub className="font-semibold text-base">developer</sub>
           </p>
         </ItemLayout>
 
@@ -67,7 +63,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
+            src={`https://skillicons.dev/icons?i=react,ts,javascript,css,figma,git,github,html,jquery,nextjs,nodejs,npm,react,redux,sass,tailwind,threejs,vercel,vite,vscode,yarn`}
             alt="error"
             loading="lazy"
           />
